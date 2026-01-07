@@ -7,6 +7,13 @@ const blogPosts = [
     category: "Open Source",
     link: "https://medium.com/@arusharmazxx000/making-your-first-open-source-contribution-a-step-by-step-guide-5d8976280bc4",
   },
+  {
+    date: "Jan 07",
+    title: "Towards Personalized Reasoning: Building Agents That Remember",
+    category: "Memory Systems",
+    link: "https://medium.com/@arusharmazxx000/towards-personalized-reasoning-building-agents-that-remember-fa02edbeeadb",
+
+  }
 ]
 
 export function BlogSection() {
