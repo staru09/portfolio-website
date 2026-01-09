@@ -37,6 +37,17 @@ const projects = [
     technologies: ["Huggingface", "Nvidia-Nemo", "CUDA", "FFmpeg"],
     github: "https://github.com/staru09/Bitcoin-Asr-Bench",
   },
+  {
+    title: "Medium-Article-Reader",
+    description: "I am very lazy and find it's difficult to read Medium articles so I build a chrome extension that reads these articles aloud.",
+    features: [
+      "Uses user's Deepgram API for transcription",
+      "User-friendly Chrome extension interface",
+      "to-do: Self hosted TTS model support",
+    ],
+    technologies: ["Chrome Extension", "Deepgram API", "TTS"],
+    github: "https://github.com/staru09/text2speech_extension",
+  }
 ]
 
 export function ProjectsSection() {
